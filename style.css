@@ -1,0 +1,19 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+#canvas{
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}

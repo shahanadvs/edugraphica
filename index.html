@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="p5.js"></script>
+    <script src="lazy-line-painter-1.9.6.js" charset="utf-8"></script>
+    <title>Point projection</title>
+</head>
+
+<body>
+  <div class="data">
+
+              <h4>Horizontal Plane </h4>
+                Above
+              <input type="radio" name="hp_pos" value="above" onclick="activehp(this.value)">
+                Below
+              <input type="radio" name="hp_pos" value="below" onclick="activehp(this.value)">
+                On
+              <input type="radio" name="hp_pos" value="on" checked onclick="activehp(this.value)">
+                mm
+              <input id="hp" type="number" name="hp" value="0" disabled>
+
+
+              <h4> Vertical Plane</h4>
+              Infront
+            <input type="radio" name="vp_pos" value="infront" onclick="activevp(this.value)">
+              Behind
+            <input type="radio" name="vp_pos" value="behind" onclick="activevp(this.value)">
+              On
+            <input type="radio" name="vp_pos" value="on" checked onclick="activevp(this.value)">
+            mm
+            <input id="vp" type="number" name="vp" value="0" disabled>
+            <br>
+            <button onclick="main()" > Generate</button>
+            <button onclick="erase()" > Clear</button>
+          
+
+
+</div>
+<div id="canvas_body"></div>
+<div id="canvas_body_new"></div>
+
+
+
+    <!--script file-->
+    <script src="script.js"></script>
+</body>
+
+</html>
