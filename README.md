@@ -1,2 +1,2 @@
 # edugraphica
-Graphics problem solver plus tutorial 
+Graphics problem solver plus tutorial. v1
